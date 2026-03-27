@@ -1,0 +1,11 @@
+proposed3
+segmenting video with 5 min each having full sentence only
+consider text part only
+goal is to get key segment 0: nonkey 1:key based on cosine similarity with reference summary
+mergeSegment_5min.py
+
+
+mergeSegment_5min: create 5 min merged segment
+merge_transcribe_export: store into db(lang wise for yt, Video db for nptl)
+translate en n nptl to indian lang: TranslationEntoX file on colab (transformer version 4.40.)
+ 
